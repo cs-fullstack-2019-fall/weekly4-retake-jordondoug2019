@@ -54,6 +54,12 @@ Error Messages:
 
 Error Messages:
 
+Traceback (most recent call last):
+  File "week4Retake.py", line 66, in <module>
+    print(arrayFunction())
+  File "week4Retake.py", line 63, in arrayFunction
+    array1[0].append(s)
+AttributeError: 'str' object has no attribute 'append'
 
 
 #9 Topic: _____
@@ -69,3 +75,7 @@ Error Messages:
 Error Messages:
 
 
+Traceback (most recent call last):
+  File "week4Retake.py", line 87, in <module>
+    while puppyEntry !=q:
+NameError: name 'q' is not defined
